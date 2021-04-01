@@ -1,0 +1,64 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "eclipse-clp",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comment_bloc"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#variables"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.ecl",
+				"match": "\\b(local|import|from|for|foreach|foreachelem|multifor|fromto|param|do|is|and|or)\\b"
+			},{
+				"name": "entity.name.function.ecl",
+				"match": "\\b(read|write|writeln|printf|lib|exit|domain|alldifferent|dim|member|indomain|labeling|minimise)\\b"
+			}]
+		},
+		"comment_bloc": {
+			"name": "comment.ecl",
+			"begin": "/[*]",
+			"end": "[*]/",
+			"patterns": [
+				{
+					"name": "comment.ecl",
+					"match": "^%.*$"
+				}
+			]
+		},
+		"comment": {
+			"name": "comment.ecl",
+			"patterns": [{
+				"name": "comment.ecl",
+				"match": "^%.*$"
+			}]
+		},
+		"numbers": {
+			"patterns": [{
+				"name": "entity.name.type",
+				"match": "\\b[\\d]+\\b"
+			}]
+		},
+		"variables": {
+			"patterns": [{
+				"name": "variable.ecl",
+				"match": "\\b[A-Z]\\w*\\b"
+			}]
+		}
+	},
+	"scopeName": "source.ecl"
+}
+

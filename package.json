@@ -1,0 +1,25 @@
+{
+    "name": "eclipse-clp",
+    "displayName": "eclipse-clp",
+    "description": "syntax highlight for \"ecl\" files.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ecl",
+            "aliases": ["eclipse-clp", "ecl"],
+            "extensions": [".ecl", ".pl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ecl",
+            "scopeName": "source.ecl",
+            "path": "./syntaxes/ecl.tmLanguage.json"
+        }]
+    }
+}
