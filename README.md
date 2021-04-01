@@ -11,4 +11,4 @@
 
 * syntax-highlight (`".ecl"` and `".pl"` files)
 
-![](https://raw.githubusercontent.com/Matbabs/Fluffy/main/assets/code.png)
+![](https://github.com/Matbabs/eclipse-clp/blob/master/assets/sudoku.png)
