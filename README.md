@@ -9,4 +9,4 @@
 
 * syntax-highlight (`".ecl"` and `".pl"` files)
 
-![](https://github.com/Matbabs/eclipse-clp/blob/master/assets/sudoku.png)
+![](https://raw.githubusercontent.com/Matbabs/eclipse-clp/master/assets/sudoku.png)
