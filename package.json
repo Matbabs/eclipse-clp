@@ -1,8 +1,11 @@
 {
     "name": "eclipse-clp",
+    "publisher": "matbabs",
+    "icon": "assets/eclipse.png",
     "displayName": "eclipse-clp",
     "description": "syntax highlight for \"ecl\" files.",
     "version": "0.0.1",
+    "repository": "https://github.com/Matbabs/eclipse-clp",
     "engines": {
         "vscode": "^1.46.0"
     },
