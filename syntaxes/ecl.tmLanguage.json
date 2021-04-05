@@ -25,7 +25,7 @@
 				"match": "\\b(local|import|from|for|foreach|foreachelem|multifor|fromto|param|do|is|and|or)\\b"
 			},{
 				"name": "entity.name.function.ecl",
-				"match": "\\b(read|write|writeln|printf|lib|exit|domain|alldifferent|dim|member|indomain|labeling|minimise)\\b"
+				"match": "\\b(read|write|writeln|printf|lib|exit|domain|alldifferent|dim|member|indomain|labeling|minimize|min|max|abs)\\b"
 			}]
 		},
 		"comment_bloc": {
